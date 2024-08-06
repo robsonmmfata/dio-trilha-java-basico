@@ -2,12 +2,14 @@
 public class ResultadoEscolar {
     
     public static void main(String[] args) {
-        int nota = 8;
+        int nota = 6;
 
         if (nota >= 7)
         System.out.println("Aprovado");
-        else
-        System.out.println("Reprovado");
+        //condiocional encadeada
+        else if (nota >= 5 && nota <7);
+        System.out.println("Esta de recuperação");
+    
 
     }
 }

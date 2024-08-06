@@ -7,7 +7,7 @@ public class Usuario {
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         
-        System.out.println("Canal Atual:" + smartTv.canal);
+        extracted();
         smartTv.mudarCanal(13);
 
         System.out.println("Tv Ligada:" + smartTv.ligada);
@@ -20,5 +20,9 @@ public class Usuario {
         System.out.println("Novo Status -> Tv Ligada:" + smartTv.ligada);
     
     
+    }
+
+    private static void extracted() {
+        System.out.println("Canal Atual:" + SmartTv.canal);
     }
 }
